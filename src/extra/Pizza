@@ -1,0 +1,18 @@
+void setup() {
+  size(500,500);
+  fill(#F2E816);
+  ellipse(250, 250, 500, 500);
+  fill(#ED2E11);
+  ellipse(250,250,450,450);
+}
+
+void draw() {
+ PImage PopTart= loadImage("poptart.ppm.gif");
+ 
+ PopTart.resize(50,50);
+image(PopTart, 100, 250);
+
+
+  
+  
+}
