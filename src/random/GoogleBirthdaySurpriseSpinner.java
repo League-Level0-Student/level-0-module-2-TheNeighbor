@@ -7,8 +7,8 @@ import javax.swing.JOptionPane;
 public class GoogleBirthdaySurpriseSpinner {
 public static void main(String[] args) {
 	// 1. Adjust this pop-up to find out what mood the user is in.
-			int spin = JOptionPane.showOptionDialog(null, "The question", "Pop-up Title", 0,
-					JOptionPane.INFORMATION_MESSAGE, null, new String[] { "3", "2", "1","0" }, null);
+			int spin = JOptionPane.showOptionDialog(null, "Pick a number.", "Pop-up Title", 0,
+					JOptionPane.INFORMATION_MESSAGE, null, new String[] { "6", "5", "4", "3", "2", "1","0" }, null);
 			
 			// 2. Their answer is stored in the userMood variable. Print it out.
 			System.out.println(spin);
@@ -25,6 +25,19 @@ public static void main(String[] args) {
 			if (spin==3) {
 				playVideo("https://www.google.com/search?ei=3UqwW5mtDJLB7gKZwYuYDA&q=snake+game&oq=snake+game&gs_l=psy-ab.3..0j0i131j0l8.2533.3718..3927...0.0..0.73.340.5....2..0....1..gws-wiz.......0i71j0i67j0i10i67.-NaKTKOUZAU");
 			}
+
+			if (spin==4) {
+				playVideo("https://www.google.com/logos/2013/bday13/bday13.html");
+			}
+
+			if (spin==5) {
+				playVideo("https://www.google.com/logos/2017/cricket17/cricket17.html");
+			}
+
+			if (spin==6) {
+				playVideo("https://beinternetawesome.withgoogle.com/en/interland/landing/kind-kingdom");
+			}
+			
 			// 4. Play different songs for other moods.
 
 	/**
