@@ -8,7 +8,7 @@ public class GoogleBirthdaySurpriseSpinner {
 public static void main(String[] args) {
 	// 1. Adjust this pop-up to find out what mood the user is in.
 			int spin = JOptionPane.showOptionDialog(null, "Pick a number.", "Pop-up Title", 0,
-					JOptionPane.INFORMATION_MESSAGE, null, new String[] { "6", "5", "4", "3", "2", "1","0" }, null);
+					JOptionPane.INFORMATION_MESSAGE, null, new String[] { "6", " 5", "4", "3", "2", "1","0" }, null);
 			
 			// 2. Their answer is stored in the userMood variable. Print it out.
 			System.out.println(spin);
