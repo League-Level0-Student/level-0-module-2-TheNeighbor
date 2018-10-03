@@ -11,6 +11,6 @@ String Publisher = JOptionPane.showInputDialog("Type in the publisher/sponsor.")
 String DateP = JOptionPane.showInputDialog("Type in when the website was published.");
 String URL = JOptionPane.showInputDialog("Type in the URL.");
 String DateA = JOptionPane.showInputDialog("Type in when you accessed the website.");
-JOptionPane.showMessageDialog(null, Author + ". " + Atitle + ". " + Wtitle + ", " + Publisher + ", " + DateP + ", " + URL + ". " + "Accessed " + DateA + ". ");
+JOptionPane.showMessageDialog(null, Author + ". " + Atitle + ". " + Wtitle + ", " + Publisher + "," + '\n' + DateP + ", " + URL + ". " + "Accessed " + DateA + ". ");
 }
 }
