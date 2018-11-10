@@ -9,7 +9,7 @@ void draw() {
   fill(#00FF1F);
     //4. if the mouse is pressed...
     if (mousePressed) {
-      x=x+100;
+      x=x+10;
     }
      //5. ... change the X co-ordinate so that the dot moves to the right
     //2. Draw an ellipse of height and width 100. Make sure to use your variable for the X position.
@@ -17,7 +17,7 @@ void draw() {
     //6. Make your dot move really fast so that it can win the race 
         //(you have to figure out what part of your code to change)
     //7. Use this method to play a ding when your dot crosses the finish line.
-    if (x > 800) {
+    if (x > 700) {
       playSound();
 }
 }
@@ -26,7 +26,7 @@ boolean soundPlayed = false;
 void playSound() {
     if (!soundPlayed) {
         Minim minim = new Minim(this);
-        AudioSample sound = minim.loadSample("Cheer.wav"); //Problem
+        AudioSample sound = minim.loadSample("Cheer.wav"); 
         sound.trigger();
         soundPlayed = true;
     }
